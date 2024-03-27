@@ -6,6 +6,7 @@
 
 html{
     height: 100vh;
+    font-size: 14px;
 }
 
 body{
@@ -26,5 +27,24 @@ body{
     padding: 20px;
     color: white;
     height: 100%;
-    
+}
+
+.gradient{
+    background: linear-gradient(45deg, blue, white);
+}
+
+.picture{
+    width: 25%;
+    border-radius: 50%;
+}
+
+.hashtag{
+    font-weight: 400;
+    font-size: 2em;
+    margin: 16px 0px
+}
+
+.description{
+    font-size: 1em;
+    color: gray;
 }
